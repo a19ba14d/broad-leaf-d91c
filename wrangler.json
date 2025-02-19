@@ -1,0 +1,30 @@
+{
+  "name": "broad-leaf-d91c",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "summer-brook-14b9-d1",
+      "database_id": "c091de02-af7a-4fe7-ac6d-b7ed582ea1ef"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "broad-leaf-d91c-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
